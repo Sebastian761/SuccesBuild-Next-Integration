@@ -73,7 +73,7 @@ export default function Carousel() {
             className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[22%] bottom-64 hidden py-5 text-center text-white md:block">
+          <div className="absolute inset-x-[22%] bottom-52 hidden py-5 text-center text-white md:block">
             <h5 className="text-4xl pb-6">Drywall Installation</h5>
             <p className="text-lg">
               We specialize in providing top-quality drywall installation
@@ -96,17 +96,23 @@ export default function Carousel() {
         >
           <img
             src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80&quot"
-            className="block w-full h-[565px] object-cover brightness-75"
+            className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[15%] bottom-14 hidden py-5 text-center text-white md:block">
-            <h5 className="text-xl">Taping, Finishing and Texture</h5>
-            <p>
+          <div className="absolute inset-x-[22%] bottom-52 hidden py-5 text-center text-white md:block">
+            <h5 className="text-4xl pb-6">Taping, Finishing and Texture</h5>
+            <p className="text-lg">
               The company offers drywall taping and finishing services to create
               a smooth surface. They also provide texture application services
               for clients who desire a specific texture on their drywall
               surfaces.
             </p>
+            <Button
+              variant="light"
+              className="mt-4 justify-self-start text-base hover:bg-slate-200 underline underline-offset-4 text-white"
+            >
+              Transform your home with precision and lasting quality
+            </Button>
           </div>
         </div>
         <div
@@ -116,15 +122,21 @@ export default function Carousel() {
         >
           <img
             src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80&quot"
-            className="block w-full h-[565px] object-cover brightness-75"
+            className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[15%] bottom-14 hidden py-5 text-center text-white md:block">
-            <h5 className="text-xl">Interior & Exterionr Painting</h5>
-            <p>
+          <div className="absolute inset-x-[22%] bottom-52 hidden py-5 text-center text-white md:block">
+            <h5 className="text-4xl pb-6">Interior & Exterionr Painting</h5>
+            <p className="text-lg">
               Professional hause painter, Contractor providing interior and
               exterior painting for Residential and Comercial.
             </p>
+            <Button
+              variant="light"
+              className="mt-4 justify-self-start text-base hover:bg-slate-200 underline underline-offset-4 text-white"
+            >
+              Transform your home with precision and lasting quality
+            </Button>
           </div>
         </div>
 
@@ -135,18 +147,24 @@ export default function Carousel() {
         >
           <img
             src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80&quot"
-            className="block w-full h-[565px] object-cover brightness-75"
+            className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[15%] bottom-14 hidden py-5 text-center text-white md:block">
-            <h5 className="text-xl">
+          <div className="absolute inset-x-[22%] bottom-52 hidden py-5 text-center text-white md:block">
+            <h5 className="text-4xl pb-6">
               Flooring Installation & Restoration Services
             </h5>
-            <p>
+            <p className="text-lg">
               Expert installation of laminate flooring and meticulous
               restoration of hardwood surfaces. Trust us to transform your
               floors into reflections of your unique style.
             </p>
+            <Button
+              variant="light"
+              className="mt-4 justify-self-start text-base hover:bg-slate-200 underline underline-offset-4 text-white"
+            >
+              Transform your home with precision and lasting quality
+            </Button>
           </div>
         </div>
       </div>
