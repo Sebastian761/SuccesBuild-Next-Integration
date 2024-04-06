@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 import { Providers } from "@/app/providers";
 import { Montserrat } from "next/font/google"
+import Carousel from "@/components/Carousel/Carousel";
 
 const montserrat = Montserrat({
   weight: '400',
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Providers>
           <Navbar />
+          <Carousel />
           {children}
 
         </Providers>

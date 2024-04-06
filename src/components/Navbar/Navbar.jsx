@@ -26,27 +26,27 @@ export default function NavbarApp() {
 
       <NavbarContent className="hidden md:flex gap-4 " justify="center">
         <NavbarItem>
-          <Link color="foreground" className="text-white lg:text-lg" href="#">
+          <Link color="foreground" className="text-white" href="#">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" aria-current="page" className="text-white lg:text-lg">
+          <Link href="#" aria-current="page" className="text-white ">
             Services
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#" className="text-white lg:text-lg">
+          <Link color="foreground" href="#" className="text-white">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white lg:text-lg" href="#">
+          <Link color="foreground" className="text-white" href="#">
             Contact
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white lg:text-lg" href="#">
+          <Link color="foreground" className="text-white" href="#">
             Projects
           </Link>
         </NavbarItem>
