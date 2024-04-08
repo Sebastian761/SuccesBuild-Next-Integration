@@ -1,24 +1,28 @@
-"use client"
+"use client";
 
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Link,
+  Button,
+} from "@nextui-org/react";
 import { Logo } from "./Logo";
+import { Calculator } from "./Calculator";
 
 export default function NavbarApp() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = [
-    "Home",
-    "Services",
-    "About Us",
-    "Contact",
-    "Projects",
-  ];
+  const menuItems = ["Home", "Services", "About Us", "Contact", "Projects"];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className="p-2 bg-[#1b263b]">
       <NavbarContent>
- 
         <NavbarBrand>
           <Logo />
         </NavbarBrand>
@@ -53,8 +57,21 @@ export default function NavbarApp() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat" className="hidden min-[960px]:flex">
-            Sign Up
+          {/* <Button>
+            <span className="pr-1">
+              <ion-icon id="calc" name="calculator-outline"></ion-icon>
+            </span>
+            <p className="inline-block mt-[3px] text-sm xl:text-base"></p>
+          </Button> */}
+          <Button
+            as={Link}
+            color=""
+            endContent={<Calculator />}
+            href="#"
+            variant="ghost"
+            className="hidden min-[960px]:flex mt-[3px] text-sm xl:text-base border-white text-white hover:bg-slate-50/5"
+          >
+            GET A FARE RATE
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -63,7 +80,11 @@ export default function NavbarApp() {
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+                index === 2
+                  ? "primary"
+                  : index === menuItems.length - 1
+                  ? "danger"
+                  : "foreground"
               }
               className="w-full"
               href="#"
@@ -75,9 +96,9 @@ export default function NavbarApp() {
         ))}
       </NavbarMenu>
       <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="md:hidden text-white font-bold"
-        />
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        className="md:hidden text-white font-bold"
+      />
     </Navbar>
   );
 }
