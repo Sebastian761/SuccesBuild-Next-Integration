@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Providers>
           <Navbar />
-          <Carousel />
           {children}
 
         </Providers>
