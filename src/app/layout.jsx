@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 import { Providers } from "@/app/providers";
 import { Montserrat } from "next/font/google"
-import Carousel from "@/components/Carousel/Carousel";
+import Carousel from "@/components/Home/Carousel/Carousel";
 
 const montserrat = Montserrat({
   weight: '400',

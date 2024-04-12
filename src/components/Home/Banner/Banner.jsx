@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-0 my-16 w-3/4 lg:w-2/3  m-auto bg-[#415a77] rounded-lg shadow-2xl p-4 relative bottom-20 lg:h-36">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-0 mt-16 w-3/4 lg:w-2/3  m-auto bg-[#415a77] rounded-lg shadow-2xl p-4 relative bottom-20 lg:h-36">
       <div class="h-28 rounded-lg">
         <div className="w-full text-center flex justify-center items-center flex-col">
           <p className="ml-3 font-semibold tracking-wide text-white">Contact Services</p>

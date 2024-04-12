@@ -1,12 +1,10 @@
-import Banner from "@/components/Banner/Banner";
-import Carousel from "@/components/Carousel/Carousel";
+import Home from "@/components/Home/Home";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <Carousel />
-      <Banner />
+      <Home />
     </div>
   );
 }

@@ -74,7 +74,7 @@ export default function CarouselClient() {
             className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-52 py-5 text-center text-white flex justify-center align-center flex-col">
+          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-48 py-5 text-center text-white flex justify-center align-center flex-col">
             <h5 className="text-2xl md:text-4xl pb-6">Drywall Installation</h5>
             <p className="text-md md:text-lg">
               We specialize in providing top-quality drywall installation
@@ -95,7 +95,7 @@ export default function CarouselClient() {
             className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-52 py-5 text-center text-white flex justify-center align-center flex-col">
+          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-36 py-5 text-center text-white flex justify-center align-center flex-col">
             <h5 className="text-2xl md:text-4xl pb-6">Taping, Finishing and Texture</h5>
             <p className="text-md md:text-lg">
               The company offers drywall taping and finishing services to create
@@ -116,8 +116,8 @@ export default function CarouselClient() {
             className="block w-full h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-52 py-5 text-center text-white flex justify-center align-center flex-col">
-            <h5 className="text-2xl md:text-4xl pb-6">Interior & Exterionr Painting</h5>
+          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-48 py-5 text-center text-white flex justify-center align-center flex-col">
+            <h5 className="text-2xl md:text-4xl pb-6">Interior & Exterior Painting</h5>
             <p className="text-md md:text-lg">
               Professional hause painter, Contractor providing interior and
               exterior painting for Residential and Comercial.
@@ -136,7 +136,7 @@ export default function CarouselClient() {
             className="block w-full h-[620px] md:h-[565px] object-cover brightness-50"
             alt="..."
           />
-          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-52 py-5 text-center text-white flex justify-center align-center flex-col">
+          <div className="absolute inset-x-[1%] sm:inset-x-[15%] md:inset-x-[22%] w-5/6 md:w-auto m-auto bottom-48 py-5 text-center text-white flex justify-center align-center flex-col">
             <h5 className="text-2xl md:text-4xl pb-6">
               Flooring Installation & Restoration Services
             </h5>
